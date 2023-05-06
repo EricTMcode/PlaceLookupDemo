@@ -9,13 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var locationManager: LocationManager
+    @State private var showPlaceLookupSheet = false
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Location:\n\(locationManager.location?.coordinate.latitude ?? 0.0), \(locationManager.location?.coordinate.longitude ?? 0.0)")
-                .padding(.bottom)
+        NavigationStack {
+            VStack(alignment: .leading) {
+                Text("Location:\n\(locationManager.location?.coordinate.latitude ?? 0.0), \(locationManager.location?.coordinate.longitude ?? 0.0)")
+                    .padding(.bottom)
+            }
+            .padding()
+            .toolbar {
+                ToolbarItem(placement: .bottomBar) {
+                    Button {
+                        showPlaceLookupSheet.toggle()
+                    } label: {
+                        Image(systemName: "magnifyingglass")
+                        Text("Lookup Place")
+                    }
+                }
+            }
         }
-        .padding()
+        .fullScreenCover(isPresented: $showPlaceLookupSheet) {
+            // TODO: 
+        }
     }
 }
 

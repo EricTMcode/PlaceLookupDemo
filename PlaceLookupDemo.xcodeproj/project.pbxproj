@@ -12,6 +12,7 @@
 		07D605372A067A7B005982B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D605362A067A7B005982B0 /* Assets.xcassets */; };
 		07D6053A2A067A7B005982B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D605392A067A7B005982B0 /* Preview Assets.xcassets */; };
 		07D605412A067ADB005982B0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D605402A067ADB005982B0 /* LocationManager.swift */; };
+		07D605432A068036005982B0 /* PlaceLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D605422A068036005982B0 /* PlaceLookupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		07D605362A067A7B005982B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07D605392A067A7B005982B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07D605402A067ADB005982B0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		07D605422A068036005982B0 /* PlaceLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceLookupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				07D605322A067A7A005982B0 /* PlaceLookupDemoApp.swift */,
 				07D605342A067A7A005982B0 /* ContentView.swift */,
+				07D605422A068036005982B0 /* PlaceLookupView.swift */,
 				07D605402A067ADB005982B0 /* LocationManager.swift */,
 				07D605362A067A7B005982B0 /* Assets.xcassets */,
 				07D605382A067A7B005982B0 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				07D605352A067A7A005982B0 /* ContentView.swift in Sources */,
 				07D605332A067A7A005982B0 /* PlaceLookupDemoApp.swift in Sources */,
+				07D605432A068036005982B0 /* PlaceLookupView.swift in Sources */,
 				07D605412A067ADB005982B0 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
