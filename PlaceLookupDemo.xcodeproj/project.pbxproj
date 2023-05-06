@@ -97,8 +97,8 @@
 		07D605482A068497005982B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				07D605422A068036005982B0 /* PlaceLookupView.swift */,
 				07D605342A067A7A005982B0 /* ContentView.swift */,
+				07D605422A068036005982B0 /* PlaceLookupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
