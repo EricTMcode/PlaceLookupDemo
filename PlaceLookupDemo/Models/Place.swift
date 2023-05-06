@@ -45,4 +45,13 @@ struct Place: Identifiable {
         
         return address
     }
+    
+    var latitude: Double {
+        self.mapItem.placemark.coordinate.latitude
+    }
+    
+    var longitude: Double {
+        self.mapItem.placemark.coordinate.longitude
+    }
+    
 }
